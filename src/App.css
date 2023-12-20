@@ -3,4 +3,14 @@ body{
   background: #eef0ff;
   transition: .5s !important;
   font-family: 'Poppins', sans-serif;
+  color: #eef0ff;
+  overflow-x: hidden;
+}
+#tsparticles {
+  position: absolute;
+  left: 0%;
+  top: 0;
+  z-index: -5;
+  min-height: 100vh !important;
+  width: 100vw;
 }
