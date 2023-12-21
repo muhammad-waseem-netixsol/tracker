@@ -7,7 +7,7 @@ const Balance = ({balance}) => {
         } else if (amount >= 1000 || amount <= -1000) {
             return (amount / 1000).toFixed(1) + 'k';
         } else {
-            return amount.toString();
+            return amount.toFixed(2).toString();
         }
     }
     let amountBal = 0;
