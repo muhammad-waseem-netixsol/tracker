@@ -30,7 +30,7 @@ console.log(expenses)
       setTextIsValid(false);
       return;
     }
-    if (amount === 0 ) {
+  if (Number(amount) === 0 || amount === "" ) {
       setAmountIsValid(false);
       return;
     }
